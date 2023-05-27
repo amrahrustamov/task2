@@ -52,6 +52,32 @@ header{
 .linkedin{
     margin: 0;
 }
-.first video{
+.firstSection video{
     min-width: 100%;
 }
+.firstSection video{
+    overflow: auto;
+}
+#video-container {
+    position: relative;
+  }
+
+  #text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(63, 62, 62, 0.5);
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    
+  }
+  .leftTextLink{
+    display: inline;
+  }
+  .rightMenuNav{
+    display: inline;
+    
+  }
