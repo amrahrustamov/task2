@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    height: 41px;
+}
 .topHeader{
     background-color: #1f272b;
     display: flex;
@@ -16,7 +19,7 @@
     width: 700px;
     height: 41px;
     color: #fff;
-    padding-left: 100px;
+    padding-left: 250px;
     padding-top: 10px;
     
 }
@@ -48,4 +51,7 @@
 }
 .linkedin{
     margin: 0;
+}
+.first video{
+    min-width: 100%;
 }
