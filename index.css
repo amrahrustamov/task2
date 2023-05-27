@@ -1,9 +1,49 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 .topHeader{
-    background-color: bisque;
+    background-color: #1f272b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     height: 41px;
+    justify-content: space-between;
+}
+.leftText{
+    display: inline;
+    width: 456px;
+    height: 41px;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.leftText span{
+    color: rgb(241, 140, 24);
+}
+.socialMediaList{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 40px;
+
+}
+.socialMedia{
+    display: flex;
+    width: 216px;
+    height: 40px;
+}
+.facebook{   
+    margin-right: 4px;
+}
+.twitter{
+    margin-right: 4px;
+}
+.behance{
+    margin-right: 4px;
+}
+.linkedin{
+    margin: 4px;
 }
