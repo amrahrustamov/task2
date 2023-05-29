@@ -106,7 +106,6 @@ ul{
 .firstText{
     width: 570px;
     height: 250px;
-    padding: 200px 0 0 0;
 }
 .firstText p,h1{
     color: white;
@@ -134,6 +133,54 @@ ul{
 .secondSection{
     flex-wrap: wrap;
 }
-.topHeader,.container,.firstText{
+.topHeader,.container,.firstText,.firstDivideLine,.navScrool{
     margin: 0 220px 0 220px;
 }
+.firstDivideLine{
+    color: white;
+    margin-top: 50px;
+}
+.upComingMeetings{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
+}
+.firstBox{
+    display: inline;
+    height: 250px;
+    width: 320px;
+    background-color: rgb(172, 53, 53);
+    
+}
+.secondBox{
+    display: inline;
+    height: 250px;
+    width: 320px;
+    background-color: rgb(172, 53, 53);
+    
+}
+.thirdBox{
+    display: inline;
+    height: 250px;
+    width: 320px;
+    background-color: rgb(172, 53, 53);
+    
+}
+.navScrool{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navScrool h2,p{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+    color: white;
+}
+.iconsForBox{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+
